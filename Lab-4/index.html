@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <title>Lab 4</title>
+  </head>
+  <body>
+    <h1>Моя перша HTML форма</h1>
+    <form action="https://httpbin.org/post" method="POST">
+      <div>
+        <label for="name">Ім'я:</label>
+        <input type="text" id="name" name="name" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="birthday">Дата народження:</label>
+        <input type="date" id="birthday" name="birthday" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="email">Імейл:</label>
+        <input type="email" id="email" name="email" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="message">Повідомлення:</label>
+        <textarea id="message" name="message"></textarea>
+      </div>
+
+      <br />
+
+      <p>Ваші улюблені напої?</p>
+      <div>
+        <label for="water">Вода</label>
+        <input type="checkbox" id="water" name="water" />
+      </div>
+      <div>
+        <label for="juice">Сік</label>
+        <input type="checkbox" id="juice" name="juice" />
+      </div>
+      <div>
+        <label for="beer">Пиво</label>
+        <input type="checkbox" id="beer" name="beer" />
+      </div>
+      <div>
+        <label for="tea">Чай</label>
+        <input type="checkbox" id="tea" name="tea" />
+      </div>
+      <p>Ваша національність?</p>
+      <div>
+        <label for="ukrainian">Українець</label>
+        <input type="radio" id="Ukrainian" name="Ukrainian" />
+      </div>
+      <div>
+        <label for="pole">Поляк</label>
+        <input type="radio" id="pole" name="Pole" />
+      </div>
+      <div>
+        <label for="british">Британець</label>
+        <input type="radio" id="british" name="British" />
+      </div>
+      <br />
+      <div>
+        <input type="submit" />
+        <input type="reset" />
+      </div>
+    </form>
+    <br />
+    <picture>
+      <source srcset="https://picsum.photos/500/300" media="(max-width: 468px)" type="image/svg+xml" />
+      <img src="https://picsum.photos/1000/400" alt="-_-" />
+    </picture>
+  </body>
+</html>
